@@ -1,2 +1,2 @@
-# kociolek
+# Kociołek
 Ile to ma procent?
