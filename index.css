@@ -1,0 +1,24 @@
+h1 {
+    text-align:center;
+}
+.pour{
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    width:100%;
+}
+.pourPrototype{
+    display:none;
+}
+.addMore{
+    padding: 10px;
+    display:block;
+    margin: 0 auto;
+}
+.brewing{
+    width:100%;
+}
+.result{
+    text-align:center;
+    margin: 0 auto;
+}

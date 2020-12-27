@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ile to ma procent</h1>
+    <div class="brewing">
+        <div class="inputs">
+        </div>
+        <button class="addMore" onclick="addPour(this)">Dodaj składnik</button>
+        <p class="result">
+            Nie masz nic
+        </p>
+        <div class="pour pourPrototype">
+            <input type="number" class="vol" placeholder="Objętość" oninput="refreshResults(this)">
+            <input type="number" class="alc" min="0" max="100" step="0.5" placeholder="Woltaż" oninput="coupleNumberAndSlider(this); refreshResults(this)">
+            <input type="range" class="alc" min="0" max="100" step="0.5" oninput="coupleNumberAndSlider(this); refreshResults(this)">
+        </div>
+    </div>
+</body>
+</html>
